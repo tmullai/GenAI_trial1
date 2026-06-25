@@ -1,5 +1,9 @@
 import streamlit as st
 from google import genai
+
+robo= genai.Client(api_key=st.secrets["MY_API"]
+
+                   
 st.markdown(
   """
   <h1 style='text-align: center;'> Python AI Assistant</h1>
