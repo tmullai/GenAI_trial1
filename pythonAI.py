@@ -1,7 +1,7 @@
 import streamlit as st
 from google import genai
 
-robo= genai.Client(api_key=st.secrets["MY_API"]
+robo= genai.Client(api_key=st.secrets["MY_API"])
 
                    
 st.markdown(
